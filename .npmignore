@@ -1,0 +1,36 @@
+# Development files
+.git/
+.github/
+.vscode/
+.idea/
+
+# Documentation (internal)
+FINAL_SUMMARY.md
+PROMOTIONAL_TEXTS.md
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+circle.yml
+appveyor.yml
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temporary files
+tmp/
+temp/

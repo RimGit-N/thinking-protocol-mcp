@@ -88,6 +88,34 @@ Add to your MCP configuration file (e.g., `mcp_config.json` or Claude Desktop co
 }
 ```
 
+### Complete Example with Multiple MCP Servers
+
+If you're using multiple MCP servers together:
+
+```json
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp"],
+      "env": {}
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "env": {}
+    },
+    "thinking-protocol": {
+      "command": "npx",
+      "args": ["-y", "thinking-protocol-mcp"],
+      "env": {}
+    }
+  }
+}
+```
+
+**Note**: Make sure there's a comma (`,`) between each server entry, except after the last one.
+
 ## 🛠️ Available Tools
 
 ### 1. `thinking_start_session`
