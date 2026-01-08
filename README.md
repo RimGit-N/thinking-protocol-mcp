@@ -53,8 +53,10 @@ Add to your MCP configuration file (e.g., `mcp_config.json` or Claude Desktop co
   "mcpServers": {
     "thinking-protocol": {
       "command": "npx",
-      "args": ["-y", "thinking-protocol-mcp"],
-      "env": {}
+      "args": [
+        "-y",
+        "thinking-protocol-mcp"
+      ]
     }
   }
 }
@@ -67,8 +69,7 @@ Add to your MCP configuration file (e.g., `mcp_config.json` or Claude Desktop co
   "mcpServers": {
     "thinking-protocol": {
       "command": "thinking-protocol-mcp",
-      "args": [],
-      "env": {}
+      "args": []
     }
   }
 }
@@ -81,8 +82,9 @@ Add to your MCP configuration file (e.g., `mcp_config.json` or Claude Desktop co
   "mcpServers": {
     "thinking-protocol": {
       "command": "node",
-      "args": ["/absolute/path/to/thinking-protocol-mcp/index.js"],
-      "env": {}
+      "args": [
+        "/absolute/path/to/thinking-protocol-mcp/index.js"
+      ]
     }
   }
 }
@@ -97,18 +99,24 @@ If you're using multiple MCP servers together:
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": ["-y", "chrome-devtools-mcp"],
-      "env": {}
+      "args": [
+        "-y",
+        "chrome-devtools-mcp"
+      ]
     },
     "context7": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"],
-      "env": {}
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
     },
     "thinking-protocol": {
       "command": "npx",
-      "args": ["-y", "thinking-protocol-mcp"],
-      "env": {}
+      "args": [
+        "-y",
+        "thinking-protocol-mcp"
+      ]
     }
   }
 }
