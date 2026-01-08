@@ -1,0 +1,42 @@
+{
+    "name": "thinking-protocol-mcp",
+    "version": "1.0.0",
+    "description": "MCP Server for 6-stage Thinking Protocol Framework",
+    "type": "module",
+    "main": "index.js",
+    "bin": {
+        "thinking-protocol-mcp": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "mcp",
+        "thinking",
+        "protocol",
+        "framework",
+        "decision-making",
+        "model-context-protocol",
+        "ai",
+        "problem-solving"
+    ],
+    "author": "Rimuru",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.0.4"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RimGit-N/thinking-protocol-mcp.git"
+    },
+    "bugs": {
+        "url": "https://github.com/RimGit-N/thinking-protocol-mcp/issues"
+    },
+    "homepage": "https://github.com/RimGit-N/thinking-protocol-mcp#readme",
+    "publishConfig": {
+        "access": "public"
+    }
+}
