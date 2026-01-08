@@ -1,5 +1,12 @@
 # Thinking Protocol MCP Server
 
+[![npm version](https://img.shields.io/npm/v/thinking-protocol-mcp.svg?style=flat-square)](https://www.npmjs.com/package/thinking-protocol-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/RimGit-N/thinking-protocol-mcp.svg?style=flat-square)](https://github.com/RimGit-N/thinking-protocol-mcp/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/RimGit-N/thinking-protocol-mcp.svg?style=flat-square)](https://github.com/RimGit-N/thinking-protocol-mcp/issues)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg?style=flat-square)](https://nodejs.org/)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-blue.svg?style=flat-square)](https://modelcontextprotocol.io/)
+
 A Model Context Protocol (MCP) server that implements a structured 6-stage thinking framework for systematic problem-solving and decision-making.
 
 ## 🎯 Overview
